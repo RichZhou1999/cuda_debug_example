@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/yihua/Desktop/example/build",
+  "command": "/usr/bin/nvcc    -g -std=c++14 --generate-code=arch=compute_72,code=[compute_72,sm_72] -x cu -c /home/yihua/Desktop/example/main.cu -o CMakeFiles/cuda-example.dir/main.cu.o",
+  "file": "/home/yihua/Desktop/example/main.cu",
+  "output": "CMakeFiles/cuda-example.dir/main.cu.o"
+}
+]

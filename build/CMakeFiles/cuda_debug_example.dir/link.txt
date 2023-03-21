@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/cuda_debug_example.dir/cuda_debug_example_generated_main.cu.o -o cuda_debug_example  /usr/lib/x86_64-linux-gnu/libcudart_static.a -ldl /usr/lib/x86_64-linux-gnu/librt.so -lpthread 

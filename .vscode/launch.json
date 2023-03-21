@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CUDA Debug",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/cuda_debug_example",
+            "args": [],
+            "debuggerPath":"/usr/local/cuda/bin/cuda-gdb",
+            "cudaLaunchArgs": ["--threadblocks=1", "--threadsperblock=5"],
+            "env": {},
+            "stopOnEntry": true,
+            "debugServerPath": "/usr/local/cuda/bin/cuda-gdb",
+            "windows": {
+                "debugServerPath": "C:/Program Files/NVIDIA Corporation/Nsight Compute 2021.4.0/cuda-gdb.exe",
+            "cudaLaunchArgs": ["--no-prompt", "--nh"]
+            }
+        }
+    ]
+}

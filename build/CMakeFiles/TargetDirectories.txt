@@ -1,0 +1,3 @@
+/home/yihua/Desktop/example/build/CMakeFiles/cuda-example.dir
+/home/yihua/Desktop/example/build/CMakeFiles/edit_cache.dir
+/home/yihua/Desktop/example/build/CMakeFiles/rebuild_cache.dir
